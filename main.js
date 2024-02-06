@@ -93,7 +93,7 @@ document.addEventListener("touchend", e => { touch = false; SetTouchPos(e); e.pr
 document.addEventListener("touchcancel", e => { touch = false; SetTouchPos(e); e.preventDefault(); }, false );
 document.addEventListener("keydown", e =>
 {
-    if (e.altKey && e.code === "KeyR")
+    if (e.altKey && e.code === "32")
     {
         localStorage.setItem("ohflip.maxHeightFt", 0);
         localStorage.setItem("ohflip.maxTotalFlips", 0);
